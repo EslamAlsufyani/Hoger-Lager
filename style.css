@@ -1,0 +1,91 @@
+ body{
+    background-image: url(/img/afbeelding\ 8.avif);
+    background-repeat: no-repeat;
+    background-size:1935px;
+}
+
+h1 {
+    font-size: 60px;
+    color: hsl(203, 60%, 85%);
+}
+
+p{
+    color: rgb(204, 236, 236);
+    font-size: 30px;
+}
+h3{
+    color: rgb(207, 243, 243);
+    
+}
+
+
+.dices{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.headings{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits{
+    column-count: 5;
+    column-fill: balance;
+    color: rgb(214, 243, 243);
+    font-size: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.dices-computer-player{
+    column-count: 2;
+    color: rgb(232, 175, 210);
+}
+
+.dices-player{
+    column-count: 2;
+    color: rgb(197, 244, 244);
+
+}
+
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+
+.message-box{
+    border: 1px solid rgb(236, 63, 170);
+    border-radius: 20px; /* Ronde hoeken */
+
+}
+
+.controls{
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+}
+
+.dice{
+    font-size: 64pt;
+}
+button{
+    width: 100%;
+    height: 28px;
+    color: #0d0000;
+    border-radius: 10px; /* Ronde hoeken */
+    size: 30px;
+} 
+
+
+button:hover {
+    background-color: rgb(252, 87, 186); /* Donkerder bij hover */
+    transform: scale(1.05); /* Iets groter bij hover */
+    font-size: 20px;
+    border: 3px solid black; /* Dikkere zwarte rand */
+}
+
